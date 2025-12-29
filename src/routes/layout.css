@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+@font-face {
+    font-family: 'Margin';
+    src: url('../lib/assets/Margin.otf') format("opentype");
+}
+
+@theme {
+    --color-light-purple: #9c8bef;
+    --color-off-white: #fffbe0;
+}
